@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item img{
+    width: 100vw;
+    height: 92vh;
+}
+
+.about-img{
+    min-width: 100%;
+    max-height: 300px;
+}
+.service-img{
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-img figure img{
+    min-width: 100%;
+    max-height: 135px;
+}
+.bg-own{
+    background-color: #a6dcef;
+}
+
+.footer{
+    margin-bottom: 0;
+}
+
+.scrollspy-own{
+    position: relative;
+}
+.scroll-own{
+    height: 300px;
+    overflow-y: scroll;
+}
+

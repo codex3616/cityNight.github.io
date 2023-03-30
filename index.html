@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CITY NIGHT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ml-">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="./about.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="./gallery.html">gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="./contact.html">Contact us</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+
+
+      <header>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/demo.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5 class=" text-uppercase display-6">new delhi</h5>
+                  <p class="text-capitalize">Delhi is known for one of the most electrifying nights in the country...</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/demo1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5 class="display-6 text-uppercase">Hydrabad</h5>
+                  <p class="text-capitalize">The vibrant nightlife in Hyderabad is a treat for the nocturnal people looking out for some fun...</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/demo2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5 class=" text-uppercase display-6">pune, mumbai</h5>
+                  <p class="text-capitalize">The nightlife of Pune brings to life this busy city and is great for those who want to unwind after a long day at work...</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </header>
+
+      <!-- ############################### ABOUT SECTION #################### -->
+      <section class="about my-5 " >
+        <div>
+            <h1 class=" text-center text-capitalize display-4">About us</h1>
+            <hr class="mx-auto w-25"  />
+        </div>
+        
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-lg-6 col-xl-6 col-md-6 col-12 ">
+              <figure>
+                <img src="./img/Showcase1.jpg" class="img-fluid about-img" alt="...">
+              </figure>
+
+              
+            </div>
+            <div class="col-lg-6 col-xl-6 col-md-6 col-12 d-flex justify-content-center align-items-start flex-column">
+               <h2 class="text-capitalize display-6">city night</h2>
+               <p> Maxime ipsum laborum dolores nulla, amet cumque dolorem.Quidem molestiae eaque tempora minus praesentium est enim iste. Necessitatibus tenetur inventore illum doloremque pariatur rem quas quos rerum magni odit! Dolores quaerat nesciunt repellendus odit blanditiis corrupti similique, totam magni.</p>
+               <a href="#" class="btn text-capitalize btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="right" title="click">check more</a>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <section class="services bg-light  py-3">
+
+        <div class="text-center">
+          <h1 class="display-4  text-capitalize ">services</h1>
+          <hr class="mx-auto w-25"  />
+        </div>
+
+        <div class="container my-5">
+          <div class="row">
+
+            <div class=" col-md-4 col-10 col-xx-4 mx-auto">
+
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row ">
+                  <div class="col-md-4">
+                    <img src="./img/service1.jpg" class="img-fluid rounded-start service-img"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Night Visit</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-4 col-10 col-xxl4 mx-auto">
+
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row ">
+                  <div class="col-md-4">
+                    <img src="./img/service2.jpg" class="img-fluid rounded-start service-img"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Creative Ideas</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-4 col-10 col-xxl4 mx-auto">
+
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row ">
+                  <div class="col-md-4">
+                    <img src="./img/service3.jpg" class="img-fluid rounded-start service-img"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Live Support</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="text-center my-4">
+          <a href="#" class="btn text-capitalize btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="right" title="click">check more</a>
+
+        </div>
+
+      </section>
+
+
+
+      <section class="gallery  my-5">
+        <h1 class="display-4 text-center text-capitalize ">gallery</h1>
+        <hr class="mx-auto w-25"/>
+
+        <div class="container gallery-img my-5">
+
+          <div class="row gx-3">
+            <div class="col-lg-4  col-md-4 col-xxl-4 col-10 mx-auto">
+              <figure>
+                <img src="./img/gallery1.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xxl-4 col-10 mx-auto">
+              <figure>
+                <img src="./img/gallery2.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xxl-4 col-10 mx-auto">
+              <figure>
+                <img src="./img/gallery3.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+          </div>
+          <div class="row gx-3">
+            <div class="col-lg-4 col-xxl-4  col-md-4 col-10 mx-auto">
+              <figure>
+                <img src="./img/gallery4.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+            <div class="col-lg-4 col-xxl-4 col-md-4  col-10 mx-auto">
+              <figure>
+                <img src="./img/gallery5.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+            <div class="col-lg-4 col-xxl-4 col-md-4  col-10 mx-auto">
+              <figure>
+                <img src="./img/gallery6.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+          </div>
+          <div class="row gx-3">
+            <div class="col-lg-4 col-xxl-4 col-10 col-md-4 mx-auto">
+              <figure>
+                <img src="./img/gallery7.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+            <div class="col-lg-4 col-xxl-4 col-10 col-md-4 mx-auto">
+              <figure>
+                <img src="./img/gallery8.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+            <div class="col-lg-4 col-xxl-4 col-10 col-md-4 mx-auto">
+              <figure>
+                <img src="./img/gallery9.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+          </div>
+          <div class="row gx-3"> 
+            <div class="col-lg-4 col-xxl-4 col-10 col-md-4 mx-auto">
+              <figure>
+                <img src="./img/gallery10.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+            <div class="col-lg-4 col-xxl-4 col-10 col-md-4 mx-auto">
+              <figure>
+                <img src="./img/gallery11.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+            <div class="col-lg-4 col-xxl-4 col-10 col-md-4 mx-auto">
+              <figure>
+                <img src="./img/gallery12.jpg" class="img-fluid " alt="gallery...">
+              </figure>
+            </div>
+          </div>
+
+        </div>
+
+      </section>  
+
+
+      <section class="jumbotron bg-own mb-5 py-3">
+        <div class="container-fluid text-center">
+          <div class="row">
+            <div class="col-12 col-xxl-12">
+              <h2 class="text-capitalize  display-6 text-light">Check out night Visits</h2>
+              <p>"Sleep all day. Party all night. Never grow old. Never die. ♥"</p>
+              <div class="text-center my-4">  
+                <a href="#" class="btn text-capitalize btn-outline-light " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="right" title="click"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg>  check more</a>
+              </div>
+      
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ########################## MODEL ####################### -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h6 class="modal-title" id="exampleModalLabel">Night Light</h6>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>You can grab more :) </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Check Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- ##################################### END ################################33 -->
+      
+      <section class="contact  my-5">
+
+        <h1 class="display-4 text-center text-capitalize ">contact us</h1>
+        <hr class="mx-auto w-25"/>
+        <div class="container">
+          <div class="row">
+            <div class="col-10 col-md-8 col-xxl-12 mx-auto">
+              <form>
+                <div class="mb-3">
+                  <label for="fullname" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="fullname" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+
+                <p class="d-inline-block me-4">Gender :</p>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Female</label>
+                </div>
+                
+                <div class="my-2">
+                  <input class="form-control form-control-sm"  id="formFileSm" type="file">
+                </div>
+
+
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <div id="passwordHelpBlock" class="form-text">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                  </div>
+                </div>
+
+                <label for="exampleDataList" class="form-label">Select City</label>
+                <input class="form-control mb-3" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                <datalist id="datalistOptions">
+                  <option value="San Francisco"></option>
+                  <option value="New York"></option>
+                  <option value="Seattle"></option>
+                  <option value="Los Angeles"></option>
+                  <option value="Chicago"></option>
+                </datalist>
+
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+ 
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+      </section>  
+
+      <footer class="bg-secondary text-light text-center ">
+        <p class="footer">@copyright City Night , All Rights Reserved...</p>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })</script>
+</body>
+</html>

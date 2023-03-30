@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CITY NIGHT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ml-">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="./about.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="./gallery.html">gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="./contact.html">Contact us</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <section class="about my-5 " >
+        <div>
+            <h1 class=" text-center text-capitalize display-4">About us</h1>
+            <hr class="mx-auto w-25"  />
+        </div>
+        
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-lg-6 col-xl-6 col-md-6 col-12 ">
+              <figure>
+                <img src="./img/Showcase1.jpg" class="img-fluid about-img" alt="...">
+              </figure>
+
+              
+            </div>
+            <div class="col-lg-6 col-xl-6 col-md-6 col-12 d-flex justify-content-center align-items-start flex-column">
+               <h2 class="text-capitalize display-6">city night</h2>
+               <p> Maxime ipsum laborum dolores nulla, amet cumque dolorem.Quidem molestiae eaque tempora minus praesentium est enim iste. Necessitatibus tenetur inventore illum doloremque pariatur rem quas quos rerum magni odit! Dolores quaerat nesciunt repellendus odit blanditiis corrupti similique, totam magni.</p>
+               <a href="#" class="btn text-capitalize btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="right" title="click">check more</a>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <div class="container scrollspy-own my-5">
+        <div class="row">
+            <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                <a class="navbar-brand" href="#">Nights</a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">First Night</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Second Night</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#scrollspyHeading3">Third Night</a></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth Night</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth Night</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example scroll-own" tabindex="0">
+                <h4 id="scrollspyHeading1">First heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure omnis dolorum, accusamus, aliquam sed expedita tempora cumque molestias, nesciunt sapiente ab. Vero minima laborum perspiciatis tempora eum illum esse voluptate eligendi numquam nulla! Dolores provident, beatae, quia autem accusamus vel error laborum, labore eum consectetur laboriosam dicta voluptatem reprehenderit porro!...</p>
+                <h4 id="scrollspyHeading2">Second heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure omnis dolorum, accusamus, aliquam sed expedita tempora cumque molestias, nesciunt sapiente ab. Vero minima laborum perspiciatis tempora eum illum esse voluptate eligendi numquam nulla! Dolores provident, beatae, quia autem accusamus vel error laborum, labore eum consectetur laboriosam dicta voluptatem reprehenderit porro!...</p>
+                <h4 id="scrollspyHeading3">Third heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure omnis dolorum, accusamus, aliquam sed expedita tempora cumque molestias, nesciunt sapiente ab. Vero minima laborum perspiciatis tempora eum illum esse voluptate eligendi numquam nulla! Dolores provident, beatae, quia autem accusamus vel error laborum, labore eum consectetur laboriosam dicta voluptatem reprehenderit porro!...</p>
+                <h4 id="scrollspyHeading4">Fourth heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure omnis dolorum, accusamus, aliquam sed expedita tempora cumque molestias, nesciunt sapiente ab. Vero minima laborum perspiciatis tempora eum illum esse voluptate eligendi numquam nulla! Dolores provident, beatae, quia autem accusamus vel error laborum, labore eum consectetur laboriosam dicta voluptatem reprehenderit porro!...</p>
+                <h4 id="scrollspyHeading5">Fifth heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure omnis dolorum, accusamus, aliquam sed expedita tempora cumque molestias, nesciunt sapiente ab. Vero minima laborum perspiciatis tempora eum illum esse voluptate eligendi numquam nulla! Dolores provident, beatae, quia autem accusamus vel error laborum, labore eum consectetur laboriosam dicta voluptatem reprehenderit porro!...</p>
+              </div>
+        </div>
+      </div>
+      
+
+      <footer class="bg-secondary text-light text-center ">
+        <p class="footer">@copyright City Night , All Rights Reserved...</p>
+      </footer>
+
+      <script>
+      var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+        target: '#navbar-example2'
+      })</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })</script>
+</body>
+</html>
